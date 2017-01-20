@@ -115,7 +115,7 @@ Cleaning column names and selecting only mean and standard deviation
 ### Step 3
 
 Exporting tidy data set to "tidy_data_set.txt"
-
+ 
 ### Step 4
 
 Creating tidy data set with the average of each variable for each activity and each subject
