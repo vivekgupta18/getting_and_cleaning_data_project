@@ -1,6 +1,6 @@
 ## Introduction 
 
-- a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
+Code book describes the variables, the data, and transformations
 
 ## Data and files
 
@@ -15,13 +15,13 @@ script for transformation is run_analysis.R
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals. 
 
-'f' at the beginning stands for 'frequency'
-'t' at the beginning stands for 'time'
-'Body' means accelerations signals separated into body
-'Gravity' means accelerations signals separated into gravity
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
-Variables contain only means and standard deviations.
-subject_id - An identifier of the subject who carried out the experiment
+'f' at the beginning stands for 'frequency'  
+'t' at the beginning stands for 'time'  
+'Body' means accelerations signals separated into body  
+'Gravity' means accelerations signals separated into gravity  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions  
+Variables contain only means and standard deviations  
+subject_id - An identifier of the subject who carried out the experiment  
 activity - one of six - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 subject_id  
