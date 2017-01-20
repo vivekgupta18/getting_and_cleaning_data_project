@@ -1,8 +1,8 @@
-### Introduction 
+## Introduction 
 
 - a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
 
-### Data and files
+## Data and files
 
 Data being transformed come from project http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 from the file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -11,7 +11,7 @@ script for transformation is run_analysis.R
 
 "tidy_data_set.txt" is the output file from transformation
 
-### Variables in the file tidy_data_set.txt
+## Variables in the file tidy_data_set.txt
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals. 
 
@@ -93,9 +93,9 @@ fBodyBodyGyroscopeMagnitude-standard_deviation
 fBodyBodyGyroscopeJerkMagnitude-mean
 fBodyBodyGyroscopeJerkMagnitude-standard_deviation
 
-### Transformations
+## Transformations
 
-## Step 1
+### Step 1
 
 It is to read files, assign column names and merge using cbind and rbind for the following files
 
@@ -108,15 +108,15 @@ test/y_test.txt
 activity_labels.txt
 features.txt
 
-## Step 2
+### Step 2
 
 Cleaning column names and selecting only mean and standard deviation
 
-## Step 3
+### Step 3
 
 Exporting tidy data set to "tidy_data_set.txt"
 
-## Step 4
+### Step 4
 
 Creating tidy data set with the average of each variable for each activity and each subject
 
