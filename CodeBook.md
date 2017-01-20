@@ -7,9 +7,10 @@ Code book describes the variables, the data, and transformations
 Data being transformed come from project http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 from the file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-script for transformation is run_analysis.R
+script for transformation is "run_analysis.R"
 
 "tidy_data_set.txt" is the output file from transformation
+"aggregated_data_by_activity_and_subject_id.txt" is output of aggregating data from above tidy data set
 
 ## Variables in the file tidy_data_set.txt
 
